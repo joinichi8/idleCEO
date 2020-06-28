@@ -1,0 +1,41 @@
+<!-- jobs.html -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <!-- Load an icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="interface.css">
+  <title>idleCEO</title>
+</head>
+<body>
+  <div class="topnav">
+    <a  href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="#store"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Store</a>
+    <a class="active" href="jobs.html"><i class="fa fa-handshake-o" aria-hidden="true"></i> Jobs</a>
+    <a href="#career"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Career</a>
+    <a href="#bussiness"><i class="fa fa-line-chart" aria-hidden="true"></i> Bussiness</a>
+  </div>
+  <div class="info">
+    <h1>Job Center</h1>
+    <p>Welcome to the job center! here you can see available jobs and earn money. take our quiz to find out your qualification and fasttrack your future career!</p>
+  </div>
+  <div class="bottleCollector">
+    <h2>Bottle collector</h2>
+    <p>if you need some fast money and got time you got to do what you have to do.</p>
+    <img src="images/bottle2.jpg" alt="bottle">
+    <br/>
+    <br/>
+    <button onclick="bottleClick(1)"
+    class="button">Collect bottle!</button>
+    <button onclick="sellbottle()"
+    class="button">Sell bottle!</button>
+    <br/>
+    <br/>
+    bottles: <span id="bottle">0</span>
+    money earned: <span id="money">0</span>$
+  </div>
+  </body>
+  <script type="text/javascript" src="main.js">
+  </script>
+  </html>
