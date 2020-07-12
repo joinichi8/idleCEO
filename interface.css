@@ -5,9 +5,8 @@ body {
 }
 
 .logo {
-  width: 15%;
-  position: relative;
-  float: left;
+  width: 10%;
+  margin: auto;
   z-index: 1;
 }
 
