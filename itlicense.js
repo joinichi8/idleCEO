@@ -82,7 +82,7 @@
         b: "IT the clown",
         c: "Internet of things",
       },
-      correctAnswer: "c"
+      correctAnswer: "a"
     },
     {
       question: "Who is the founder of Razer Inc. ?",
